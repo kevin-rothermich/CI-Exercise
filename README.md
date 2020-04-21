@@ -18,7 +18,7 @@
 
 ### 3. Build with Gradle
 
-gradle build
+gradle clean build
 
 ### 4. View Travis CI Builds
 
@@ -62,7 +62,7 @@ Go update the test for the code you just wrote and test again.
 
 ### 4. Run the JAR File
 
-     java -jar build/libs/CS-348-CI-Exercise.jar
+java -jar build/libs/CS-348-CI-Exercise.jar
 
 ### 5. Add your code and commit your changes
 
@@ -80,7 +80,7 @@ Make sure you are pushing to your branch.
 
 Note that you cannot make a pull request until Travis has run your build, and your tests are successful.
 
-See the [branch protection rule](https://github.com/cs-worcester-cs-348-sp-2020/CI-Exercise/settings/branch_protection_rules/5045241) to see how this was done. 
+See the [branch protection rule](https://github.com/cs-worcester-cs-348-sp-2020/CI-Exercise/settings/branch_protection_rules/15536969) to see how this was done. 
 
 ### 9. Go to the original repository and approve someone else's pull request
 
@@ -93,15 +93,17 @@ See the [branch protection rule](https://github.com/cs-worcester-cs-348-sp-2020/
 > 1. Add the change
 >    
 >    > 2. Pull any changes that have ocurred since the last pull, and correct merge conflicts
->    > >    > 3. Commit the change, with a message describing the change.
->    > >    > 4. Push the change
->    > >    > 5. Make a pull request to have the change merged into the original repository
+>    >    
+>    >    > > 3. Commit the change, with a message describing the change.
+>    >    > >    
+>    >    > >    > > > > 4. Push the change
+>    >    > >    > > > > >    >    > >    > > > > 5. Make a pull request to have the change merged into the original repository
 
 ## General Bash  Hints
 
 * To view hidden files (starting with .) in Bash, type `ls -al`
 
-Copyright and License
+## Copyright and License
 
 #### © 2020 S Nagpal, Worcester State University
 
