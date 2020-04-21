@@ -64,6 +64,16 @@ Go update the test for the code you just wrote and test again.
 
 java -jar build/libs/CS-348-CI-Exercise.jar
 
+(Note: If you get an error that there is a mismatch in Java versions in which the code has been compiled and executed, then execute it straight from the java executable of JDK, instead of that available in JRE, as follows:
+
+From Git Bash prompt:
+
+ "/c/Program Files/Java/jdk-14/bin/java" -jar build/libs/CI-Exercise.jar
+
+From DOS command prompt:
+
+"C:\Program Files\Java\jdk-14\bin\java" -jar build\libs\CI-Exercise.jar    )
+
 ### 5. Add your code and commit your changes
 
 ### 6. Before pushing your changes, make sure your repository is up-to-date with upstream
@@ -97,7 +107,8 @@ See the [branch protection rule](https://github.com/cs-worcester-cs-348-sp-2020/
 >    >    > > 3. Commit the change, with a message describing the change.
 >    >    > >    
 >    >    > >    > > > > 4. Push the change
->    >    > >    > > > > >    >    > >    > > > > 5. Make a pull request to have the change merged into the original repository
+>    >    > >    > > > >    
+>    >    > >    > > > >    > > > > > > > > 5. Make a pull request to have the change merged into the original repository
 
 ## General Bash  Hints
 
