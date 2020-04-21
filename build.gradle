@@ -31,6 +31,15 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.0'
 }
 
+//Added by S Nagpal for CI Exercise - SP 2020
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'CS_348_SP_2020.CIExercise.CIExercise'
+        )
+    }
+}
 test {
     // Use junit platform for unit tests
     useJUnitPlatform()
