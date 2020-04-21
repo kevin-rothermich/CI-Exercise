@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CS_348_SP_2020.CIExercise.EndsWith8Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-21T03:29:24" hostname="SHRUTINAGPAL" time="0.003">
+  <properties/>
+  <testcase name="testToString()" classname="CS_348_SP_2020.CIExercise.EndsWith8Test" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
