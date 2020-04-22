@@ -12,7 +12,7 @@ public class EndsWith3Test {
 	public void testToString() {
 		EndsWith3 three = new EndsWith3();
 		// add your name to the expected string, after all the other names in the form John Smith\n
-		assertEquals("EndsWith3 [names=]", three.toString());
+		assertEquals("EndsWith3 [names=Kevin Rothermich]", three.toString());
 	}
 
 }
